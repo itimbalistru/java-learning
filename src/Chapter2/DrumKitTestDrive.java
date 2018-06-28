@@ -9,8 +9,6 @@ public class DrumKitTestDrive {
         d.playSnare();
         d.playTopHat();
 
-        if( d.snare == true) {
-            d.playSnare();
-        }
+        if( d.snare == true) d.playSnare();
     }
 }
